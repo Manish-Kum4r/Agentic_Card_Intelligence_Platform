@@ -1,0 +1,6 @@
+cluster,n,monetary,frequency,recency_days,avg_engagement,persona
+0,835,132925.21,32.61,23.12,52.63,Growing Mid-Market
+1,818,95961.52,23.49,28.04,87.32,Steady Core
+2,706,398432.89,96.83,8.63,84.07,High-Value Engaged
+3,559,32122.25,8.7,79.59,65.61,At-Risk High-Spend
+4,81,14777.74,4.11,345.35,71.5,Low-Engagement SMB

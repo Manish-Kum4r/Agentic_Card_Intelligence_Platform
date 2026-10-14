@@ -1,0 +1,23 @@
+{
+  "test_name": "Q4 Cashback Boost (control vs treatment)",
+  "days": 60,
+  "control": {
+    "impressions": 301955,
+    "conversions": 12250,
+    "cvr": 0.04056895895083704
+  },
+  "treatment": {
+    "impressions": 298725,
+    "conversions": 12918,
+    "cvr": 0.04324378609088627
+  },
+  "lift_relative": 0.0659,
+  "lift_relative_ci95": [
+    0.0409,
+    0.0909
+  ],
+  "z_statistic": 5.173,
+  "p_value": 2.2992200543470176e-07,
+  "significant_at_5pct": true,
+  "verdict": "Treatment wins \u2014 roll out to 100% of the audience."
+}

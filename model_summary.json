@@ -1,0 +1,37 @@
+{
+  "best_model": "random_forest",
+  "test_rows": 18000,
+  "test_decline_rate": 0.2659,
+  "confusion_matrix": [
+    [
+      9127,
+      4087
+    ],
+    [
+      1469,
+      3317
+    ]
+  ],
+  "metrics": [
+    {
+      "model": "logistic_regression",
+      "roc_auc": 0.7289,
+      "accuracy": 0.5416,
+      "precision": 0.3535,
+      "recall": 0.8734,
+      "f1": 0.5033,
+      "roc_auc_ci_note": "single split; see evaluation/model_eval.py for CV"
+    },
+    {
+      "model": "random_forest",
+      "roc_auc": 0.7682,
+      "accuracy": 0.6913,
+      "precision": 0.448,
+      "recall": 0.6931,
+      "f1": 0.5442,
+      "roc_auc_ci_note": "single split; see evaluation/model_eval.py for CV"
+    }
+  ],
+  "n_features": 36,
+  "train_rows": 45000
+}

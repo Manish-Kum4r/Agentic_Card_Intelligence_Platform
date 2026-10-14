@@ -1,0 +1,7 @@
+{
+  "files_scanned": 14,
+  "pan_or_email_findings": [],
+  "scan_clean": true,
+  "masking_utility_works": true,
+  "policy": "Analytics datasets must never contain full card numbers (PAN) or email addresses; synthetic token IDs only (KB-11)."
+}

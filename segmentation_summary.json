@@ -1,0 +1,59 @@
+{
+  "k": 5,
+  "n_cardholders": 2999,
+  "inertia": 3697.0,
+  "profiles": [
+    {
+      "cluster": 0,
+      "n": 835,
+      "monetary": 132925.21,
+      "frequency": 32.61,
+      "recency_days": 23.12,
+      "avg_engagement": 52.63,
+      "persona": "Growing Mid-Market"
+    },
+    {
+      "cluster": 1,
+      "n": 818,
+      "monetary": 95961.52,
+      "frequency": 23.49,
+      "recency_days": 28.04,
+      "avg_engagement": 87.32,
+      "persona": "Steady Core"
+    },
+    {
+      "cluster": 2,
+      "n": 706,
+      "monetary": 398432.89,
+      "frequency": 96.83,
+      "recency_days": 8.63,
+      "avg_engagement": 84.07,
+      "persona": "High-Value Engaged"
+    },
+    {
+      "cluster": 3,
+      "n": 559,
+      "monetary": 32122.25,
+      "frequency": 8.7,
+      "recency_days": 79.59,
+      "avg_engagement": 65.61,
+      "persona": "At-Risk High-Spend"
+    },
+    {
+      "cluster": 4,
+      "n": 81,
+      "monetary": 14777.74,
+      "frequency": 4.11,
+      "recency_days": 345.35,
+      "avg_engagement": 71.5,
+      "persona": "Low-Engagement SMB"
+    }
+  ],
+  "persona_names": {
+    "3": "At-Risk High-Spend",
+    "2": "High-Value Engaged",
+    "0": "Growing Mid-Market",
+    "1": "Steady Core",
+    "4": "Low-Engagement SMB"
+  }
+}

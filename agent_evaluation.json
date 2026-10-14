@@ -1,0 +1,85 @@
+{
+  "n_questions": 5,
+  "validation_pass_rate": 1.0,
+  "workflow_complete_rate": 1.0,
+  "all_cited_kb": true,
+  "deterministic_repeat_run": true,
+  "workflow_reliability": 1.0,
+  "per_question": [
+    {
+      "question": "Which campaigns should we scale up and which should we pause based on ROAS?",
+      "status": "validated",
+      "validation_passed": true,
+      "attempts": 1,
+      "nodes_executed": [
+        "analyze",
+        "retrieve",
+        "recommend",
+        "validate"
+      ],
+      "all_four_nodes_ran": true,
+      "recommendation_chars": 1417,
+      "cited_kb": true
+    },
+    {
+      "question": "How many cardholders are at high risk of engagement decline and who are the top 5?",
+      "status": "validated",
+      "validation_passed": true,
+      "attempts": 1,
+      "nodes_executed": [
+        "analyze",
+        "retrieve",
+        "recommend",
+        "validate"
+      ],
+      "all_four_nodes_ran": true,
+      "recommendation_chars": 1766,
+      "cited_kb": true
+    },
+    {
+      "question": "What should we do about the at-risk high-spend segment?",
+      "status": "validated",
+      "validation_passed": true,
+      "attempts": 1,
+      "nodes_executed": [
+        "analyze",
+        "retrieve",
+        "recommend",
+        "validate"
+      ],
+      "all_four_nodes_ran": true,
+      "recommendation_chars": 1464,
+      "cited_kb": true
+    },
+    {
+      "question": "Did the Q4 Cashback Boost A/B test win, and what should we do next?",
+      "status": "validated",
+      "validation_passed": true,
+      "attempts": 1,
+      "nodes_executed": [
+        "analyze",
+        "retrieve",
+        "recommend",
+        "validate"
+      ],
+      "all_four_nodes_ran": true,
+      "recommendation_chars": 1140,
+      "cited_kb": true
+    },
+    {
+      "question": "How should we allocate next quarter's marketing budget?",
+      "status": "validated",
+      "validation_passed": true,
+      "attempts": 1,
+      "nodes_executed": [
+        "analyze",
+        "retrieve",
+        "recommend",
+        "validate"
+      ],
+      "all_four_nodes_ran": true,
+      "recommendation_chars": 1443,
+      "cited_kb": true
+    }
+  ]
+}

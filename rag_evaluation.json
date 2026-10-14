@@ -1,0 +1,238 @@
+{
+  "n_queries": 14,
+  "k": 3,
+  "hit_rate_at_k": 0.9286,
+  "precision_at_1": 0.9286,
+  "mrr": 0.9286,
+  "min_hit_rate_floor": 0.75,
+  "min_mrr_floor": 0.6,
+  "hit_rate_floor_passed": true,
+  "mrr_floor_passed": true,
+  "all_answers_cited": true,
+  "per_query": [
+    {
+      "question": "What is the engagement score formula and how is it calculated?",
+      "expected_docs": [
+        "KB-08"
+      ],
+      "retrieved_docs": [
+        "KB-08",
+        "KB-08",
+        "KB-08"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 610,
+      "mean_relevance": 0.2614
+    },
+    {
+      "question": "What should we do when a high-spend cardholder's engagement declines?",
+      "expected_docs": [
+        "KB-09"
+      ],
+      "retrieved_docs": [
+        "KB-09",
+        "KB-08",
+        "KB-08"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 651,
+      "mean_relevance": 0.2187
+    },
+    {
+      "question": "What are the ROAS benchmarks by channel?",
+      "expected_docs": [
+        "KB-10"
+      ],
+      "retrieved_docs": [
+        "KB-10",
+        "KB-10",
+        "KB-10"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 755,
+      "mean_relevance": 0.3422
+    },
+    {
+      "question": "How do we design and read an A/B test?",
+      "expected_docs": [
+        "KB-07"
+      ],
+      "retrieved_docs": [
+        "KB-07",
+        "KB-07",
+        "KB-07"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 485,
+      "mean_relevance": 0.1136
+    },
+    {
+      "question": "What are the email marketing best practices and benchmarks?",
+      "expected_docs": [
+        "KB-04"
+      ],
+      "retrieved_docs": [
+        "KB-04",
+        "KB-04",
+        "KB-04"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 578,
+      "mean_relevance": 0.2976
+    },
+    {
+      "question": "When should we use statement inserts versus direct mail?",
+      "expected_docs": [
+        "KB-06"
+      ],
+      "retrieved_docs": [
+        "KB-06",
+        "KB-06",
+        "KB-06"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 568,
+      "mean_relevance": 0.3131
+    },
+    {
+      "question": "What are the data privacy, consent and compliance rules?",
+      "expected_docs": [
+        "KB-11"
+      ],
+      "retrieved_docs": [
+        "KB-11",
+        "KB-11",
+        "KB-11"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 648,
+      "mean_relevance": 0.2681
+    },
+    {
+      "question": "How should we allocate the marketing budget across campaigns?",
+      "expected_docs": [
+        "KB-14"
+      ],
+      "retrieved_docs": [
+        "KB-14",
+        "KB-14",
+        "KB-10"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 576,
+      "mean_relevance": 0.2003
+    },
+    {
+      "question": "What does the seasonal campaign calendar look like?",
+      "expected_docs": [
+        "KB-13"
+      ],
+      "retrieved_docs": [
+        "KB-13",
+        "KB-13",
+        "KB-01"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 563,
+      "mean_relevance": 0.2059
+    },
+    {
+      "question": "What are the offer terms and rewards earn rates?",
+      "expected_docs": [
+        "KB-03"
+      ],
+      "retrieved_docs": [
+        "KB-03",
+        "KB-03",
+        "KB-03"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 567,
+      "mean_relevance": 0.2991
+    },
+    {
+      "question": "How do we choose the right channel for a campaign?",
+      "expected_docs": [
+        "KB-01"
+      ],
+      "retrieved_docs": [
+        "KB-09",
+        "KB-14",
+        "KB-10"
+      ],
+      "hit": false,
+      "gold_rank": null,
+      "citation_present": true,
+      "answer_chars": 568,
+      "mean_relevance": 0.1283
+    },
+    {
+      "question": "How are customer segments and personas defined?",
+      "expected_docs": [
+        "KB-02"
+      ],
+      "retrieved_docs": [
+        "KB-02",
+        "KB-02",
+        "KB-14"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 633,
+      "mean_relevance": 0.1763
+    },
+    {
+      "question": "What insights do merchant spending categories give us?",
+      "expected_docs": [
+        "KB-12"
+      ],
+      "retrieved_docs": [
+        "KB-12",
+        "KB-12",
+        "KB-12"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 775,
+      "mean_relevance": 0.3171
+    },
+    {
+      "question": "What are the in-app messaging frequency caps?",
+      "expected_docs": [
+        "KB-05"
+      ],
+      "retrieved_docs": [
+        "KB-05",
+        "KB-05",
+        "KB-05"
+      ],
+      "hit": true,
+      "gold_rank": 1,
+      "citation_present": true,
+      "answer_chars": 538,
+      "mean_relevance": 0.2819
+    }
+  ]
+}
